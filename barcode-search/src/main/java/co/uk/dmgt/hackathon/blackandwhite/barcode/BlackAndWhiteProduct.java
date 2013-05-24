@@ -11,6 +11,7 @@ public class BlackAndWhiteProduct implements Comparable<BlackAndWhiteProduct> {
 	private String classification;
 	private int priority;
 	private String link;
+	private String amazonUrl;
 
 	public int compareTo(BlackAndWhiteProduct o) {
 		if (o.getPriority() == getPriority()) return 0;
@@ -89,6 +90,14 @@ public class BlackAndWhiteProduct implements Comparable<BlackAndWhiteProduct> {
 
 	public void setLink(String link) {
 		this.link = link;
+	}
+
+	public String getAmazonUrl() {
+		return amazonUrl;
+	}
+
+	public void setAmazonUrl(String amazonUrl) {
+		this.amazonUrl = amazonUrl;
 	}
 
 }
