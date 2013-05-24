@@ -1,3 +1,16 @@
+# eclipse
+.classpath
+.project
+.cache
+.settings/
+.worksheet
+barcode-search/.classpath
+barcode-search/.project
+barcode-search/.cache
+barcode-search/.settings/
+barcode-search/.worksheet
+barcode-search/target/
+
 *.class
 *.log
 
